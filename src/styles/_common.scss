@@ -35,11 +35,11 @@ main, .about{
   display:block;
   position:relative;
   height: calc(1vh - 50px); /*1vh == view port 1%*/
-  min-height: 800px;
+  min-height: 700px;
   margin: 0 auto;
   overflow: hidden;
   text-align:center;
-  @include bg("img_main.jpg", no-repeat, 51% 345px);
+  @include bg("index.jpg", no-repeat, 50% 70%);
   h1{
     margin: 185px 0 5px;
     font-size:4.2rem;
@@ -94,11 +94,11 @@ section{
     color:$white;
     margin-bottom: 20px;
   }
-  a.btn{
+  .btn{
     margin-top: 30px;
     color : $white;
     border-color: $white;
-    .img{
+    .icon{
      vertical-align: middle;
       margin-right: 15px;
     }

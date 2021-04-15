@@ -6,6 +6,12 @@ html,body{
     min-width: auto;
   }
 }
+.wrap{
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
 header,footer{
   width:100%;
   position:relative;
@@ -187,10 +193,4 @@ header{
     color: #999;
     margin-left: 5px;
   }
-}
-.wrap{
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 50px;
-  box-sizing: border-box;
 }
