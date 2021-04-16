@@ -10,21 +10,21 @@ h2{
 }
 .btn{
   min-width: 250px;
-  padding:25px 30px 23px;
+  padding:18px 30px 15px;
   border:2px solid $point;
   border-radius: 8px;
   display: inline-block;
   color: $point;
   margin-top:75px;
-  font-size: 1.42rem;
-  line-height: 1;
+  font-size: 18px;
+  line-height: 20px;
   box-sizing: border-box;
   transition:all 200ms;
   &:hover{
     color: #ffb800;
     border-color: #ffb800;
   }
-  &.btn{
+  &+.btn{
     margin-left: 20px;
   }
 }
@@ -34,12 +34,12 @@ main, .about{
 .main{
   display:block;
   position:relative;
-  height: calc(1vh - 50px); /*1vh == view port 1%*/
+  height: calc(100vh - 50px); /*1vh == view port 1%*/
   min-height: 700px;
   margin: 0 auto;
   overflow: hidden;
   text-align:center;
-  @include bg("index.jpg", no-repeat, 50% 70%);
+  @include bg("index.jpg", no-repeat, 50% 55%);
   h1{
     margin: 185px 0 5px;
     font-size:4.2rem;
@@ -49,8 +49,9 @@ main, .about{
   }
 }
 section{
-  padding: 130px 0 100px;
+  padding: 130px 0 70px;
   text-align:center;
+  box-sizing: border-box;
 }
 .about{
   background: #fafafa;
@@ -88,11 +89,11 @@ section{
   }
 }
 .contact{
-  padding:70px 0;
   background: $point;
+  height: calc(100vh - 50px); 
   h1{
     color:$white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .btn{
     margin-top: 30px;
@@ -106,6 +107,63 @@ section{
   span{
     display: block;
     color:$white;
+  }
+  .loading{
+    @include set_content(100%, 100%,block,absolute, rgba(0,0,0,0.6));
+    top:0;
+    left: 0;
+    z-index: 10;
+    img{
+      top:50%;
+      left: 50%;
+      width: 70px;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border-radius: 5px;
+    }
+  }
+}
+.tbl{
+  width: 1000px;
+  margin: 0 auto;
+  td{
+    padding: 5px;
+  }
+  .noti{
+    text-align: right;
+    padding: 20px 5px 0;
+    a{
+      text-decoration: underline;
+    }
+  }
+  label{
+    display: none;
+  }
+  input, textarea{
+    line-height: 40px;
+    font-size: 16px;
+    border:1px solid $lightgray;
+    border-radius: 10px;
+    &:focus{
+      outline-color: #ff9600;
+    }
+  }
+  input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+  textarea{
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  .btn{
+    width: 100%;
+    margin-top: 0;
   }
 }
 .port{
@@ -286,5 +344,35 @@ section{
         font-weight: bold;
       }
     }
+  }
+}
+.alert{
+  @include set_content(100%, 100%,block,absolute, rgba(0,0,0,0.6));
+  top:0;
+  left: 0;
+  z-index: 10;
+  .cont{
+    @include set_content(350px, 250px, block, absolute, $white);
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 4px solid $black;
+    font-size: 16px;
+    p{
+      padding-top: 120px;
+      @include bg("ico_mail_black.svg", no-repeat, 50% 50px, 70px);
+
+    }
+  }
+  .btn_close{
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    background: $black;
+    color: $white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 }
