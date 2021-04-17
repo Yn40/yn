@@ -127,12 +127,11 @@ section{
       margin-bottom:25px;
     }
     .unit {
-      width: 380px;
-      height: 255px;
+      @include set_content(380px, 255px, block, relative);
       margin: 20px 30px 20px 0;
       box-sizing: border-box;
-      background-size: 100% !important;
-      background-repeat: no-repeat !important;
+      // background-size: 100% !important;
+      // background-repeat: no-repeat !important;
       float: left;
       border-radius: 15px;
       border: 2px solid #efefef;
@@ -151,7 +150,8 @@ section{
       }
     }
     .corver{
-      background: rgba(0,0,0,0.8);
+      @include set_content(100%, 100%, block, absolute, rgba(0,0,0, 0.8));
+      // background: rgba(0,0,0,0.8);
       width: 100%;
       height: 100%;
       box-sizing: border-box;
@@ -159,10 +159,11 @@ section{
       text-align: left;
       color:rgba(255,255,255, 0.8);
       @include fontfamily(100, "sq");
-      position: relative;
       cursor: pointer;
       transition: all 100ms;
       opacity: 0;
+      top: 0;
+      left: 0;
       h3{
         font-size: 22px;
         color:$white;
