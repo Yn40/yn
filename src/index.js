@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from 'reportWebVitals';
 import 'styles/style.scss'; 
-import Portfolio from 'Portfolio';
+import YnPortfolio from 'YnPortfolio';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Portfolio/>
+    <YnPortfolio/>
   </BrowserRouter>,
   document.getElementById('root')
 );

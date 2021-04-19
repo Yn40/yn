@@ -4,9 +4,10 @@ import Footer from "components/Footer"
 import Main from 'components/Main';
 import About from 'components/About';
 import Contact from 'components/Contact'
+import Portfolio from 'components/Portfolio'
 import { Switch, Route, Link } from 'react-router-dom';
 
-const Portfolio = () => {
+const YnPortfolio = () => {
   return (
     <>
       <Header/> 
@@ -14,10 +15,11 @@ const Portfolio = () => {
         <Route path="/" exact={true} component={Main}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
+        <Route path="/portfolio" component={Portfolio}/>
       </Switch>
       <Footer/>
     </>
   );
 };
 
-export default Portfolio;
+export default YnPortfolio;
