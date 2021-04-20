@@ -6,7 +6,7 @@
         "work" : {
             "new": "70%",
             "info":"구축, 유지보수",
-            "desc":"개발 PL로 초기 기획부터 구축, 전반적인 UI 작업에 참여하였습니다. <br>홍보, contact us 제외한 모든 UI개발을 담당하였습니다." 
+            "desc":"개발 PL로 초기 기획부터 구축, 전반적인 UI 작업에 참여하였습니다. \n홍보, contact us 제외한 모든 UI개발을 담당하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 웹 표준, 웹 접근성, SEO",
         "browser" :"IE 9 이상, 모던 브라우저",
@@ -23,7 +23,7 @@
         "work" : {
             "new": "50%",
             "info":"구축, 유지보수",
-            "desc":"UI개발 PA로 구축에 참여하였습니다. <br>곰앤컴퍼니, 사업소개 , 채용안내 등 UI개발을 담당하였습니다." 
+            "desc":"UI개발 PA로 구축에 참여하였습니다. \n곰앤컴퍼니, 사업소개 , 채용안내 등 UI개발을 담당하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 웹 표준, 웹 접근성, SEO",
         "browser" :"모바일 웹, 모던 브라우저",
@@ -39,8 +39,8 @@
         "title": "GOMLab", 
         "work" : {
             "new": "90%",
-            "info":"구축, 신규 페이지 개발, <br>개선 및 유지보수, 프로모션, DM",
-            "desc":"개발 PL로 초기 기획부터 구축, 전반적인 UI 작업에 참여하였습니다. <br>한국어, 일본어, 영어를 지원하며, 웹 폰트를 경량화하여 적용하였습니다. <br>반응형 웹으로 작업하였습니다.<br>" 
+            "info":"구축, 신규 페이지 개발, \n개선 및 유지보수, 프로모션, DM",
+            "desc":"개발 PL로 초기 기획부터 구축, 전반적인 UI 작업에 참여하였습니다. \n한국어, 일본어, 영어를 지원하며, 웹 폰트를 경량화하여 적용하였습니다. \n반응형 웹으로 작업하였습니다.\n" 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 반응형, 웹 표준, 웹 접근성, SEO",
         "browser" :"IE 9 이상, 모던 브라우저",
@@ -72,7 +72,7 @@
         "work" : {
             "new": "30%",
             "info":"구축, 개선 및 유지보수",
-            "desc":"UI개발 PA로 구축에 참여하였습니다. <br>로그인, 팝업, 미지원 브라우저 안내, 튜토리얼 등 UI개발을 담당하였습니다." 
+            "desc":"UI개발 PA로 구축에 참여하였습니다. \n로그인, 팝업, 미지원 브라우저 안내, 튜토리얼 등 UI개발을 담당하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git",
         "browser" :"Chrome, poera",
@@ -88,8 +88,8 @@
         "title": "Kocowa",
         "work" : {
             "new": "40%",
-            "info":"구축, 신규 페이지 개발, <br>개선 및 유지보수, 프로모션, DM",
-            "desc":"UI개발 PA로 구축에 참여하였습니다. <br>결제, 이용권/캐시안내, 마이TV, 성인인증, 이벤트 페이지 UI 개발을 담당하였습니다." 
+            "info":"구축, 신규 페이지 개발, \n개선 및 유지보수, 프로모션, DM",
+            "desc":"UI개발 PA로 구축에 참여하였습니다. \n결제, 이용권/캐시안내, 마이TV, 성인인증, 이벤트 페이지 UI 개발을 담당하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 반응형, 웹 표준, 웹 접근성",
         "browser" :"IE 9 이상, 모던 브라우저",
@@ -103,7 +103,7 @@
         "type" : "pc", 
         "title": "GOMTV PC",
         "work" : {
-            "info": "개편, 신규 페이지 개발, <br>개선 및 유지보수, 프로모션, DM",
+            "info": "개편, 신규 페이지 개발, \n개선 및 유지보수, 프로모션, DM",
             "desc":"부분 개편(메인, 카테고리), 신규 페이지 개발(스포츠, 나혼자보는TV)" 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 웹 표준, 웹 접근성",
@@ -118,7 +118,7 @@
         "title": "GOMTV Mini Web",
         "work" : {
             "new": "50%",
-            "info":"개편, 신규 페이지 개발, <br>개선 및 유지보수",
+            "info":"개편, 신규 페이지 개발, \n개선 및 유지보수",
             "desc":"부분 개편(Gnb), 신규 페이지 개발(스포츠)" 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 웹 표준, 웹 접근성",
@@ -133,8 +133,8 @@
         "title": "GOMTV Mobile",
         "work" : {
             "new": "50%",
-            "info":"개편, 신규 페이지 개발, <br>개선 및 유지보수, 프로모션",
-            "desc":"UI개발 PA로 구축에 참여하였습니다. <br>로그인 회원가입 등 회원 관련 페이지, 이용권, 결제, 공지사항 문의하기 등 help 페이지, 이벤트 페이지 등  UI개발을 담당하였습니다." 
+            "info":"개편, 신규 페이지 개발, \n개선 및 유지보수, 프로모션",
+            "desc":"UI개발 PA로 구축에 참여하였습니다. \n로그인 회원가입 등 회원 관련 페이지, 이용권, 결제, 공지사항 문의하기 등 help 페이지, 이벤트 페이지 등  UI개발을 담당하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 반응형, 웹 표준, 웹 접근성",
         "browser" :"모바일 웹, 모던 브라우저",
@@ -151,7 +151,7 @@
         "work" : {
             "new": "40%",
             "info":"구축, 개선 및 유지보수",
-            "desc":"UI개발 PA로 구축에 참여하였습니다. <br>chart, 이용약관, FAQ  UI 개발을 담당하였습니다." 
+            "desc":"UI개발 PA로 구축에 참여하였습니다. \nchart, 이용약관, FAQ  UI 개발을 담당하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git, 반응형, 웹 표준, 웹 접근성",
         "browser" :"모바일 웹, 모던 브라우저",
@@ -234,7 +234,7 @@
         "sub_type" : "웹개발 & UI개발",
         "title": "지오패스",
         "work" : {
-            "info":"서버관리, 신규 페이지 개발, <br>개선 및 유지보수, 프로모션"
+            "info":"서버관리, 신규 페이지 개발, \n개선 및 유지보수, 프로모션"
         },
         "skill" : "JAVA, JSP, 리눅스, Oracle, AJAX, API(아마존, 라쿠텐, 이베이 등), HTML5, CSS3, Javascript, jQuery",
         "browser" :"IE 9 이상, 모던 브라우저",
@@ -248,7 +248,7 @@
         "sub_type" : "웹개발 & UI개발",
         "title": "아마존",
         "work" : {
-            "info":"서버관리, 개편, 신규 페이지 개발, <br>개선 및 유지보수, 프로모션"
+            "info":"서버관리, 개편, 신규 페이지 개발, \n개선 및 유지보수, 프로모션"
         },
         "skill" : "PHP, 리눅스, Mysql, AJAX, API(아마존), HTML5, CSS3, Javascript, jQuery",
         "browser" :"IE 9 이상, 모던 브라우저",

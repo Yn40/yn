@@ -90,7 +90,6 @@ section{
 }
 .contact{
   background: $point;
-  height: calc(100vh - 50px); 
   h1{
     color:$white;
     margin-bottom: 40px;
@@ -166,7 +165,7 @@ section{
     margin-top: 0;
   }
 }
-.port{
+.portfolio{ 
   max-width: $pc;
   margin:0 auto;
   h1, h2{
@@ -233,6 +232,9 @@ section{
       .info{
         font-size: 14px;
         margin-top:14px;
+        span{
+          display: block;
+        }
       }
       .link{
         position: absolute;
