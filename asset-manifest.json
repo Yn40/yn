@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ffac6f5e.chunk.css",
+    "main.js": "/portfolio/static/js/main.cbf05275.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cbf05275.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.329b93b2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.329b93b2.js.map",
+    "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
+    "static/js/2.d6d1962d.chunk.js": "/portfolio/static/js/2.d6d1962d.chunk.js",
+    "static/js/2.d6d1962d.chunk.js.map": "/portfolio/static/js/2.d6d1962d.chunk.js.map",
+    "static/js/3.2e30eeac.chunk.js": "/portfolio/static/js/3.2e30eeac.chunk.js",
+    "static/js/3.2e30eeac.chunk.js.map": "/portfolio/static/js/3.2e30eeac.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.b183c589.chunk.css.map": "/portfolio/static/css/2.b183c589.chunk.css.map",
+    "static/css/main.ffac6f5e.chunk.css.map": "/portfolio/static/css/main.ffac6f5e.chunk.css.map",
+    "static/js/2.d6d1962d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d6d1962d.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/portfolio/static/media/loading.7e935467.svg",
+    "static/media/css.4b4b3bb7.svg": "/portfolio/static/media/css.4b4b3bb7.svg",
+    "static/media/git.bbc164ec.svg": "/portfolio/static/media/git.bbc164ec.svg",
+    "static/media/gulp.68b17f62.svg": "/portfolio/static/media/gulp.68b17f62.svg",
+    "static/media/html.b5dd8d4a.svg": "/portfolio/static/media/html.b5dd8d4a.svg",
+    "static/media/ico_mail.d2f6550c.svg": "/portfolio/static/media/ico_mail.d2f6550c.svg",
+    "static/media/js.c33c8b1b.svg": "/portfolio/static/media/js.c33c8b1b.svg",
+    "static/media/logo.bd7fb654.svg": "/portfolio/static/media/logo.bd7fb654.svg",
+    "static/media/react.edc8a246.svg": "/portfolio/static/media/react.edc8a246.svg",
+    "static/media/slick-theme.css": "/portfolio/static/media/slick.c94f7671.ttf",
+    "static/media/vue.e43a7a8f.svg": "/portfolio/static/media/vue.e43a7a8f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.329b93b2.js",
+    "static/css/2.b183c589.chunk.css",
+    "static/js/2.d6d1962d.chunk.js",
+    "static/css/main.ffac6f5e.chunk.css",
+    "static/js/main.cbf05275.chunk.js"
+  ]
+}
