@@ -27,7 +27,7 @@ const Popup = ({data, setOpen}) => {
                 <Slider  {...settings}>
                 {
                     data.img.map((imgUrl, index) => (
-                        <img key={index} src={"../img/web/" + imgUrl} alt={data.title+" 이미지"}/>
+                        <img key={index} src={"img/web/" + imgUrl} alt={data.title+" 이미지"}/>
                     ))
                 }
                 </Slider>
