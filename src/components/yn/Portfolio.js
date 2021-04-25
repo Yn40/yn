@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Item from 'components/portfolio/Item';
+import Item from 'components/yn/Item';
 import list from 'data/portfolio.json';
 
 const Portfolio = () => {

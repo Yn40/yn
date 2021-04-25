@@ -4,10 +4,10 @@ import Footer from "components/Footer"
 import Main from 'components/Main';
 import About from 'components/About';
 import Contact from 'components/Contact';
-import Portfolio from 'components/portfolio/Portfolio';
+import Portfolio from 'components/yn/Portfolio';
 import { Switch, Route, Link } from 'react-router-dom';
 
-const YnPortfolio = () => {
+const Yn = () => {
   return (
     <>
       <Header/> 
@@ -22,4 +22,4 @@ const YnPortfolio = () => {
   );
 };
 
-export default YnPortfolio;
+export default Yn;

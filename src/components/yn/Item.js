@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Popup from 'components/portfolio/Popup';
+import Popup from 'components/yn/Popup';
 
 
 const Item = ({data}) => {
