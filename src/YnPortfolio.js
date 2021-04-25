@@ -12,10 +12,10 @@ const YnPortfolio = () => {
     <>
       <Header/> 
       <Switch>
-        <Route path="/" exact={true} component={Main}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/portfolio" component={Portfolio}/>
+        <Route path="/portfolio/" exact={true} component={Main}/>
+        <Route path="/portfolio/about" component={About}/>
+        <Route path="/portfolio/contact" component={Contact}/>
+        <Route path="/portfolio/portfolio" component={Portfolio}/>
       </Switch>
       <Footer/>
     </>

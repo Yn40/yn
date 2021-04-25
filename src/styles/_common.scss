@@ -57,6 +57,9 @@ section{
   background: #fafafa;
   padding: 0;
   overflow: hidden;
+  h1{
+    margin-bottom: 60px;
+  }
   .intro{
     padding: 160px 0 130px;
     font-size: 1.42rem;
@@ -64,8 +67,8 @@ section{
     color: #646464;
   }
   .skill{
-    height: 400px;
-    padding-top:110px;
+    height: 450px;
+    padding-top:70px;
     background: $point;
     color:$white;
     box-sizing: border-box;

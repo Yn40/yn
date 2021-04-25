@@ -30,8 +30,7 @@ const About = () => {
 				<a className="btn" href="https://github.com/" target="_blank"><span>Github →</span></a>
 			</article>
 			<article className="skill">
-				{/* <h1 className="blind">MY SKILL</h1> */}
-				<h2 className="">Technical Stack</h2>
+				<h1 className="">Technical Stack</h1>
 				<img src={html} alt="Html5" className="img_skill" />
 				<img src={css} alt="Css3 & Scss" className="img_skill"/>
 				<img src={js} alt="JavaScript & JQuery" className="img_skill"/>
