@@ -14,7 +14,7 @@ const Portfolio = () => {
                 ))
               }
             </article>
-            <article class="list">
+            <article className="list">
               <h2>PC</h2>
               {
                 list.map(data =>(
@@ -22,7 +22,7 @@ const Portfolio = () => {
                 ))
               }
             </article>
-            <article class="list">
+            <article className="list">
               <h2>Mobile</h2>
               {
                 list.map(data =>(
@@ -31,7 +31,7 @@ const Portfolio = () => {
               }
             </article>
             
-            <article class="list">
+            <article className="list">
               <h2>ETC</h2>
               {
                 list.map(data =>(

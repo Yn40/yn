@@ -59,7 +59,7 @@
             "desc":"UI개발 PL로 초기 기획부터 구축, 전반적인 UI 작업에 참여하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git",
-        "browser" :"Chrome, poera",
+        "browser" :"Chrome, Opera",
         "url1" : "http://www.gomlab.com/gomlab_v2/ui/gommeme/html/index.html",
         "url2" : "https://www.gomlab.com/gomlab_v2/ui/html/index.html",
         "poster":"meme.jpg",
@@ -75,7 +75,7 @@
             "desc":"UI개발 PA로 구축에 참여하였습니다. \n로그인, 팝업, 미지원 브라우저 안내, 튜토리얼 등 UI개발을 담당하였습니다." 
         },
         "skill" : "HTML5, CSS3, SCSS, Javascript, jQuery, Gulp, Git",
-        "browser" :"Chrome, poera",
+        "browser" :"Chrome, Opera",
         "url1" : "https://www.gomlab.com/gommixweb-video-editing/editor/",
         "url2" : "https://www.gomlab.com/gomlab_v2/ui/gommixweb/html/index.html",
         "poster":"mix.jpg",
@@ -252,7 +252,6 @@
         },
         "skill" : "PHP, 리눅스, Mysql, AJAX, API(아마존), HTML5, CSS3, Javascript, jQuery",
         "browser" :"IE 9 이상, 모던 브라우저",
-        "url1" : "http://www.amazon24.co.kr/index.do",
         "poster":"ama.jpg",
         "img": ["ama1.jpg"]
     }

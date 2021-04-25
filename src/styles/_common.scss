@@ -248,7 +248,7 @@ section{
     }
   }
 }
-.pop{
+.popup{
   padding: 0;
   top:0;
   left: 0;
@@ -275,7 +275,7 @@ section{
         display: none;
       }
     }
-    .slider{
+    .slick-slider{
       width: 100%;
       min-height: 761px;
       @include bg("loading.svg",no-repeat, 50% 45%, 100px);
@@ -285,10 +285,10 @@ section{
       min-height: 630px;
       margin:40px 0 55px;
     }
-    .swiper-slide{
+    .slick-slide{
       margin:40px 0 55px;
     }
-    .close{
+    .btn_close{
       @include blind;
       @include set_content(35px, 35px, block, absolute);
       border: 1px solid $white;
@@ -307,23 +307,31 @@ section{
         transform: translate(-50%, -50%) rotate(-45deg);
       }
     }
-    .pagination{
+    .slick-dots{
       position:absolute;
       top:10px;
       bottom: auto;
       left: 0;
       text-align: right;
       z-index: 2;
-    }
-    .swiper-pagination-bullet{
-      width: 13px;
-      height: 4px;
-      border-radius: 10px;
-      background: #aaa;
-      opacity: 1;
-    }
-    .swiper-pagination-bullet-active{
-      background: $point;
+      li{
+        width: auto;
+        &.slick-active button{
+          background: $point;
+        }
+        button{
+          width: 15px;
+          padding: 0;
+          height: 4px;
+          border-radius: 10px;
+          margin-left: 0;
+          background: #aaa;
+          opacity: 1;
+          &:before{
+            display: none;
+          }
+        }
+      }
     }
     img{
       width: 100%;
