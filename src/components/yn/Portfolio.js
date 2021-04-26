@@ -30,7 +30,14 @@ const Portfolio = () => {
                 ))
               }
             </article>
-            
+            <article className="list">
+              <h2>Web Product</h2>
+              {
+                list.map(data =>(
+                  data.type =="product" && <Item data={data} key={data.id}/>
+                ))
+              }
+            </article>
             <article className="list">
               <h2>ETC</h2>
               {

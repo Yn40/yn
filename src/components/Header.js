@@ -5,7 +5,7 @@ import logo from 'img/logo.svg';
 const Header = () => {
   return (
     <header>
-      <h1 className="logo"><Link to="/yn/"><img src={logo} alt="Yn Logo"/></Link></h1>
+      <h1 className="logo"><Link to="/yn"><img src={logo} alt="Yn Logo"/></Link></h1>
       <nav className="gnb">
         <ul>
           <li><Link to="/yn">HOME</Link></li>

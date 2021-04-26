@@ -28,7 +28,7 @@ h2{
     margin-left: 20px;
   }
 }
-main, .about{
+.main, .about{
   @include fontfamily(100, "pen");
 }
 .main{
