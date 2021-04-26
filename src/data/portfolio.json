@@ -1,6 +1,19 @@
 [
     {
         "id" : 1,
+        "type" : "pc", 
+        "title": "GOM Mix Market",
+        "work" : {
+            "info":"신규 페이지 개발 및 유지보수"
+        },
+        "skill" : "HTML5, CSS3, SCSS, Vue.js, Git, Rest Api, 웹 표준, 웹 접근성",
+        "browser" :"모던 브라우저",
+        "poster":"market.jpg",
+        "url1" : "https://market.gomlab.com/",
+        "img": ["market1.jpg","market2.jpg","market3.jpg"]
+    },
+    {
+        "id" : 2,
         "type" : "pc",
         "title": "GOM & Company PC",
         "work" : {
@@ -16,7 +29,7 @@
         "img": ["gom_pc1.jpg","gom_pc2.jpg","gom_pc3.jpg","gom_pc4.jpg","gom_pc5.jpg"]
     },
     {
-        "id" : 2,
+        "id" : 3,
         "type" : "mobile",
         "title": "GOM & Company Mobile",
         "sub_type":"반응형 (tablet, mobile)",
@@ -33,7 +46,7 @@
         "img": ["gom_m1.jpg","gom_m2.jpg","gom_m3.jpg","gom_m4.jpg"]
     },
     {
-        "id" : 3,
+        "id" : 4,
         "type" : "responsive",
         "sub_type":"반응형 (pc, tablet, mobile)",
         "title": "GOMLab", 
@@ -50,7 +63,7 @@
         "img": ["lab1.jpg","lab2.jpg","lab3.jpg","lab4.jpg","lab5.jpg"]
     },
     {
-        "id" : 4,
+        "id" : 5,
         "type" : "pc",
         "title": "GOM Meme Maker",
         "work" : {
@@ -66,7 +79,7 @@
         "img": ["meme1.jpg","meme2.jpg","meme3.jpg","meme4.jpg"]
     },
     {
-        "id" : 5,
+        "id" : 6,
         "type" : "pc",
         "title": "GOM Mix Web",
         "work" : {
@@ -82,7 +95,7 @@
         "img": ["mix1.jpg","mix2.jpg","mix3.jpg","mix4.jpg"]
     },
     {
-        "id" : 6,
+        "id" : 7,
         "type" : "responsive",
         "sub_type":"반응형 (pc, tablet, mobile)",
         "title": "Kocowa",
@@ -99,7 +112,7 @@
         "img": ["ko1.jpg","ko2.jpg","ko3.jpg","ko4.jpg","ko5.jpg"]
     },
     {
-        "id" : 7,
+        "id" : 8,
         "type" : "pc", 
         "title": "GOMTV PC",
         "work" : {
@@ -113,7 +126,7 @@
         "img": ["tv1.jpg","tv2.jpg","tv3.jpg","tv4.jpg","tv5.jpg"]
     },
     {
-        "id" : 8,
+        "id" : 9,
         "type" : "pc", 
         "title": "GOMTV Mini Web",
         "work" : {
@@ -127,7 +140,7 @@
         "img": ["tvmn1.jpg","tvmn2.jpg","tvmn3.jpg","tvmn4.jpg"]
     }, 
     {
-        "id" : 9,
+        "id" : 10,
         "type" : "mobile",
         "sub_type":"반응형 (tablet, mobile)",
         "title": "GOMTV Mobile",
@@ -144,7 +157,7 @@
         "img": ["tvm1.jpg","tvm2.jpg","tvm3.jpg","tvm4.jpg","tvm5.jpg"]
     }, 
     {
-        "id" : 10,
+        "id" : 11,
         "type" : "mobile",
         "sub_type":"반응형 (tablet, mobile)",
         "title": "Whosfan",
@@ -160,7 +173,7 @@
         "img": ["whos1.jpg","whos2.jpg","whos3.jpg","whos4.jpg"]
     },
     {
-        "id" : 11,
+        "id" : 12,
         "type" : "pc",
         "title": "Vrix",
         "work" : {
@@ -172,7 +185,7 @@
         "img": ["vrix1.jpg","vrix2.jpg","vrix3.jpg","vrix4.jpg"]
     }, 
     {
-        "id" : 12,
+        "id" : 13,
         "type" : "mobile",
         "sub_type":"반응형 (tablet, mobile)",
         "title": "Ait",
@@ -186,7 +199,7 @@
         "img": ["ait1.png"]
     }, 
     {
-        "id" : 13,
+        "id" : 14,
         "type" : "responsive",
         "sub_type":"반응형 (pc, tablet, mobile)",
         "title": "리우올림픽",
@@ -201,7 +214,7 @@
         "img": ["rio1.jpg","rio2.jpg","rio3.jpg","rio4.jpg","rio5.jpg"]
     }, 
     {
-        "id" : 14,
+        "id" : 15,
         "type" : "pc",
         "title": "곰 제품 사이트, 곰 제품",
         "work" : {
@@ -215,7 +228,7 @@
         "img": ["pro1.jpg","pro2.jpg","pro3.jpg"]
     }, 
     {
-        "id" : 15,
+        "id" : 16,
         "type" : "etc",
         "sub_type" : "웹개발 & UI 유지보수",
         "title": "Apex, Apex Mts",
@@ -229,7 +242,7 @@
         "img": ["apex1.jpg","apex2.jpg"]
     }, 
     {
-        "id" : 16,
+        "id" : 17,
         "type" : "etc",
         "sub_type" : "웹개발 & UI개발",
         "title": "지오패스",
@@ -243,7 +256,7 @@
         "img": ["geo1.jpg"]
     }, 
     {
-        "id" : 17,
+        "id" : 18,
         "type" : "etc",
         "sub_type" : "웹개발 & UI개발",
         "title": "아마존",
