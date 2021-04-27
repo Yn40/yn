@@ -33,6 +33,9 @@ const Popup = ({data, setOpen}) => {
                 </Slider>
                 <div className="cont">
                     {
+                        data.siteInfo && <p><b>서비스 소개 </b>: {data.siteInfo}</p>
+                    }
+                    {
                         data.work.new && <p><b>개편 기여도 </b>: {data.work.new}</p>
                     }
                     <p><b>기술 </b>: {data.skill}</p>
